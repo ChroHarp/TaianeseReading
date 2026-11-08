@@ -1,0 +1,2268 @@
+{
+  "source": "使用者提供之台羅對照稿",
+  "sentences": {
+    "khoo-p1-s1": {
+      "text": "苦瓜哪會苦　蔡靜慧",
+      "tokens": [
+        {
+          "text": "苦瓜",
+          "romanization": "Khóo-kue"
+        },
+        {
+          "text": "哪",
+          "romanization": "ná"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": "　",
+          "romanization": null
+        },
+        {
+          "text": "蔡",
+          "romanization": "Tshuà"
+        },
+        {
+          "text": "靜慧",
+          "romanization": "tsīng-huī"
+        }
+      ]
+    },
+    "khoo-p2-s1": {
+      "text": "阮阿爸上愛食苦瓜，像苦瓜蔭豉仔、鹹卵炒苦瓜、魚脯仔炒苦瓜、苦瓜封佮苦瓜排骨湯，只要是苦瓜的料理伊攏真佮意。",
+      "tokens": [
+        {
+          "text": "阮",
+          "romanization": "Guán"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "上",
+          "romanization": "siōng"
+        },
+        {
+          "text": "愛",
+          "romanization": "ài"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "像",
+          "romanization": "tshiūnn"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "蔭豉仔",
+          "romanization": "ìm-sīnn-á"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "鹹卵",
+          "romanization": "kiâm-nn̄g"
+        },
+        {
+          "text": "炒",
+          "romanization": "tshá"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "魚脯仔",
+          "romanization": "hî-póo-á"
+        },
+        {
+          "text": "炒",
+          "romanization": "tshá"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "苦瓜封",
+          "romanization": "khóo-kue-hong"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "排骨湯",
+          "romanization": "pâi-kut-thng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "只要",
+          "romanization": "tsí-iàu"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "料理",
+          "romanization": "liāu-lí"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "真",
+          "romanization": "tsin"
+        },
+        {
+          "text": "佮意",
+          "romanization": "kah-ì"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p3-s1": {
+      "text": "自我捌代誌以來，飯桌頂三不五時就會有苦瓜的料理。",
+      "tokens": [
+        {
+          "text": "自",
+          "romanization": "Tsū"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "捌代誌",
+          "romanization": "bat-tāi-tsì"
+        },
+        {
+          "text": "以來",
+          "romanization": "í-lâi"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "飯桌頂",
+          "romanization": "pn̄g-toh-tíng"
+        },
+        {
+          "text": "三不五時",
+          "romanization": "sam-put-gōo-sî"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "料理",
+          "romanization": "liāu-lí"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p3-s2": {
+      "text": "拄開始干焦阿爸會去夾，我佮阿姊是你看我、我看你，無去共振動著，阿母是加減夾兩塊仔來食，彼盤苦瓜定定攏予阿爸食甲空空空閣喝食無夠。",
+      "tokens": [
+        {
+          "text": "拄",
+          "romanization": "Tú"
+        },
+        {
+          "text": "開始",
+          "romanization": "khai-sí"
+        },
+        {
+          "text": "干焦",
+          "romanization": "kan-na"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "去",
+          "romanization": "khì"
+        },
+        {
+          "text": "夾",
+          "romanization": "ngeh"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "阿姊",
+          "romanization": "a-tsí"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "你",
+          "romanization": "lí"
+        },
+        {
+          "text": "看",
+          "romanization": "khuànn"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "看",
+          "romanization": "khuànn"
+        },
+        {
+          "text": "你",
+          "romanization": "--lí"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "去",
+          "romanization": "khì"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "振動",
+          "romanization": "tín-tāng"
+        },
+        {
+          "text": "著",
+          "romanization": "--tio̍h"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "加減",
+          "romanization": "ke-kiám"
+        },
+        {
+          "text": "夾",
+          "romanization": "ngeh"
+        },
+        {
+          "text": "兩塊仔",
+          "romanization": "nn̄g-tè-á"
+        },
+        {
+          "text": "來",
+          "romanization": "lâi"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "彼",
+          "romanization": "hit"
+        },
+        {
+          "text": "盤",
+          "romanization": "puânn"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "定定",
+          "romanization": "tiānn-tiānn"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "予",
+          "romanization": "hōo"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "甲",
+          "romanization": "kah"
+        },
+        {
+          "text": "空空空",
+          "romanization": "khang-khang-khang"
+        },
+        {
+          "text": "閣",
+          "romanization": "koh"
+        },
+        {
+          "text": "喝",
+          "romanization": "huah"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "無夠",
+          "romanization": "bô-kàu"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p3-s3": {
+      "text": "我佮阿姊攏誠憢疑：苦瓜敢毋是足苦、足歹食的？",
+      "tokens": [
+        {
+          "text": "我",
+          "romanization": "Guá"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "阿姊",
+          "romanization": "a-tsí"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "誠",
+          "romanization": "tsiânn"
+        },
+        {
+          "text": "憢疑",
+          "romanization": "giâu-gî"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "敢",
+          "romanization": "kám"
+        },
+        {
+          "text": "毋",
+          "romanization": "m̄"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "足",
+          "romanization": "tsiok"
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "足",
+          "romanization": "tsiok"
+        },
+        {
+          "text": "歹食",
+          "romanization": "pháinn-tsia̍h"
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "？",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p3-s4": {
+      "text": "是按怎阿爸會遐爾仔愛食苦瓜咧？",
+      "tokens": [
+        {
+          "text": "是按怎",
+          "romanization": "Sī-án-tsuánn"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "遐爾仔",
+          "romanization": "hiah-nī-á"
+        },
+        {
+          "text": "愛",
+          "romanization": "ài"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "咧",
+          "romanization": "--leh"
+        },
+        {
+          "text": "？",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p3-s5": {
+      "text": "阮仙想都想無。",
+      "tokens": [
+        {
+          "text": "阮",
+          "romanization": "Guán"
+        },
+        {
+          "text": "仙",
+          "romanization": "sian"
+        },
+        {
+          "text": "想",
+          "romanization": "siūnn"
+        },
+        {
+          "text": "都",
+          "romanization": "to"
+        },
+        {
+          "text": "想無",
+          "romanization": "siūnn-bô"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s1": {
+      "text": "有一擺暗頓竟然有苦瓜封炕湯，我和阿姊看著隨面憂面結，想講這聲無湯通啉矣。",
+      "tokens": [
+        {
+          "text": "有",
+          "romanization": "Ū"
+        },
+        {
+          "text": "一",
+          "romanization": "tsi̍t"
+        },
+        {
+          "text": "擺",
+          "romanization": "pái"
+        },
+        {
+          "text": "暗頓",
+          "romanization": "àm-tǹg"
+        },
+        {
+          "text": "竟然",
+          "romanization": "kìng-jiân"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "苦瓜封",
+          "romanization": "khóo-kue-hong"
+        },
+        {
+          "text": "炕",
+          "romanization": "khòng"
+        },
+        {
+          "text": "湯",
+          "romanization": "thng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "和",
+          "romanization": "hām"
+        },
+        {
+          "text": "阿姊",
+          "romanization": "a-tsí"
+        },
+        {
+          "text": "看著",
+          "romanization": "khuànn--tio̍h"
+        },
+        {
+          "text": "隨",
+          "romanization": "suî"
+        },
+        {
+          "text": "面憂面結",
+          "romanization": "bīn-iu-bīn-kat"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "想講",
+          "romanization": "siūnn-kóng"
+        },
+        {
+          "text": "這聲",
+          "romanization": "tsit-siann"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "湯",
+          "romanization": "thng"
+        },
+        {
+          "text": "通",
+          "romanization": "thang"
+        },
+        {
+          "text": "啉",
+          "romanization": "lim"
+        },
+        {
+          "text": "矣",
+          "romanization": "--ah"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s2": {
+      "text": "想袂到阿爸煞攑湯匙仔𣁳苦瓜封內底的肉豉仔囥佇我佮阿姊的碗裡，對阮講：「這苦瓜封內底的肉豉仔袂歹食，試看覓咧。」",
+      "tokens": [
+        {
+          "text": "想袂到",
+          "romanization": "Siūnn-bē-kàu"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "煞",
+          "romanization": "suah"
+        },
+        {
+          "text": "攑",
+          "romanization": "gia̍h"
+        },
+        {
+          "text": "湯匙仔",
+          "romanization": "thng-sî-á"
+        },
+        {
+          "text": "𣁳",
+          "romanization": "khat"
+        },
+        {
+          "text": "苦瓜封",
+          "romanization": "khóo-kue-hong"
+        },
+        {
+          "text": "內底",
+          "romanization": "lāi-té"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "肉豉仔",
+          "romanization": "bah-sīnn-á"
+        },
+        {
+          "text": "囥",
+          "romanization": "khǹg"
+        },
+        {
+          "text": "佇",
+          "romanization": "tī"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "阿姊",
+          "romanization": "a-tsí"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "碗裡",
+          "romanization": "uánn-lí"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "對",
+          "romanization": "tuì"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "這",
+          "romanization": "tse"
+        },
+        {
+          "text": "苦瓜封",
+          "romanization": "khóo-kue-hong"
+        },
+        {
+          "text": "內底",
+          "romanization": "lāi-té"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "肉豉仔",
+          "romanization": "bah-sīnn-á"
+        },
+        {
+          "text": "袂",
+          "romanization": "bē"
+        },
+        {
+          "text": "歹食",
+          "romanization": "pháinn-tsia̍h"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "試看覓",
+          "romanization": "tshì-khuànn-māi"
+        },
+        {
+          "text": "咧",
+          "romanization": "--leh"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s3": {
+      "text": "阮兩个隨攑箸夾起來食看覓，食一喙滋味誠實袂䆀呢，就直直頕頭講好食。",
+      "tokens": [
+        {
+          "text": "阮",
+          "romanization": "Guán"
+        },
+        {
+          "text": "兩",
+          "romanization": "nn̄g"
+        },
+        {
+          "text": "个",
+          "romanization": "ê"
+        },
+        {
+          "text": "隨",
+          "romanization": "suî"
+        },
+        {
+          "text": "攑",
+          "romanization": "gia̍h"
+        },
+        {
+          "text": "箸",
+          "romanization": "tī"
+        },
+        {
+          "text": "夾",
+          "romanization": "ngeh"
+        },
+        {
+          "text": "起來",
+          "romanization": "--khí-lâi"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "看覓",
+          "romanization": "khuànn-māi"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "一",
+          "romanization": "tsi̍t"
+        },
+        {
+          "text": "喙",
+          "romanization": "tshuì"
+        },
+        {
+          "text": "滋味",
+          "romanization": "tsu-bī"
+        },
+        {
+          "text": "誠實",
+          "romanization": "tsiânn-si̍t"
+        },
+        {
+          "text": "袂䆀",
+          "romanization": "bē-bái"
+        },
+        {
+          "text": "呢",
+          "romanization": "--neh"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "直直",
+          "romanization": "ti̍t-ti̍t"
+        },
+        {
+          "text": "頕頭",
+          "romanization": "tàm-thâu"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "好食",
+          "romanization": "hó-tsia̍h"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s4": {
+      "text": "這个時陣，我問阿爸：「阿爸，苦瓜封的苦瓜敢袂苦？",
+      "tokens": [
+        {
+          "text": "這",
+          "romanization": "Tsit"
+        },
+        {
+          "text": "个",
+          "romanization": "ê"
+        },
+        {
+          "text": "時陣",
+          "romanization": "sî-tsūn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "問",
+          "romanization": "mn̄g"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "苦瓜封",
+          "romanization": "khóo-kue-hong"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "敢",
+          "romanization": "kám"
+        },
+        {
+          "text": "袂",
+          "romanization": "bē"
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": "？",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s5": {
+      "text": "是按怎你哪會遮佮意食咧？」",
+      "tokens": [
+        {
+          "text": "是按怎",
+          "romanization": "Sī-án-tsuánn"
+        },
+        {
+          "text": "你",
+          "romanization": "lí"
+        },
+        {
+          "text": "哪",
+          "romanization": "ná"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "遮",
+          "romanization": "tsiah"
+        },
+        {
+          "text": "佮意",
+          "romanization": "kah-ì"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "咧",
+          "romanization": "--leh"
+        },
+        {
+          "text": "？",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s6": {
+      "text": "阿爸聽煞就笑笑對阮講：「苦瓜哪會苦？",
+      "tokens": [
+        {
+          "text": "阿爸",
+          "romanization": "A-pah"
+        },
+        {
+          "text": "聽煞",
+          "romanization": "thiann-suah"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "笑笑",
+          "romanization": "tshiò-tshiò"
+        },
+        {
+          "text": "對",
+          "romanization": "tuì"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "哪",
+          "romanization": "ná"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": "？",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s7": {
+      "text": "誠好食啊！",
+      "tokens": [
+        {
+          "text": "誠",
+          "romanization": "Tsiânn"
+        },
+        {
+          "text": "好食",
+          "romanization": "hó-tsia̍h"
+        },
+        {
+          "text": "啊",
+          "romanization": "--ah"
+        },
+        {
+          "text": "！",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s8": {
+      "text": "無，這馬恁食一塊仔看覓咧。」",
+      "tokens": [
+        {
+          "text": "無",
+          "romanization": "Bô"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "這馬",
+          "romanization": "tsit-má"
+        },
+        {
+          "text": "恁",
+          "romanization": "lín"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "一塊仔",
+          "romanization": "tsi̍t-tè-á"
+        },
+        {
+          "text": "看覓",
+          "romanization": "khuànn-māi"
+        },
+        {
+          "text": "咧",
+          "romanization": "--leh"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s9": {
+      "text": "雖然食著小可仔苦苦，毋過吞落去，嚨喉煞感覺甘甘，想袂到遮特別，根本都無像阮所想的遐歹食呢！",
+      "tokens": [
+        {
+          "text": "雖然",
+          "romanization": "Sui-jiân"
+        },
+        {
+          "text": "食著",
+          "romanization": "tsia̍h-tio̍h"
+        },
+        {
+          "text": "小可仔",
+          "romanization": "sió-khuá-á"
+        },
+        {
+          "text": "苦苦",
+          "romanization": "khóo-khóo"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "毋過",
+          "romanization": "m̄-koh"
+        },
+        {
+          "text": "吞",
+          "romanization": "thun"
+        },
+        {
+          "text": "落去",
+          "romanization": "--lo̍h-khì"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "嚨喉",
+          "romanization": "nâ-âu"
+        },
+        {
+          "text": "煞",
+          "romanization": "suah"
+        },
+        {
+          "text": "感覺",
+          "romanization": "kám-kak"
+        },
+        {
+          "text": "甘甘",
+          "romanization": "kam-kam"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "想袂到",
+          "romanization": "siūnn-bē-kàu"
+        },
+        {
+          "text": "遮",
+          "romanization": "tsia"
+        },
+        {
+          "text": "特別",
+          "romanization": "ti̍k-pia̍t"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "根本",
+          "romanization": "kin-pún"
+        },
+        {
+          "text": "都",
+          "romanization": "to"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "像",
+          "romanization": "tshiūnn"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "所",
+          "romanization": "sóo"
+        },
+        {
+          "text": "想",
+          "romanization": "siūnn"
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "遐",
+          "romanization": "hiah"
+        },
+        {
+          "text": "歹食",
+          "romanization": "pháinn-tsia̍h"
+        },
+        {
+          "text": "呢",
+          "romanization": "--neh"
+        },
+        {
+          "text": "！",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p4-s10": {
+      "text": "阿爸看阮的表情閣講：「苦瓜有特別的苦味，食了會回甘，嘛會清熱解毒、降火氣、助消化，對咱的身體有好無䆀，恁會當慢慢仔食看覓咧。」",
+      "tokens": [
+        {
+          "text": "阿爸",
+          "romanization": "A-pah"
+        },
+        {
+          "text": "看",
+          "romanization": "khuànn"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "表情",
+          "romanization": "piáu-tsîng"
+        },
+        {
+          "text": "閣",
+          "romanization": "koh"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "特別",
+          "romanization": "ti̍k-pia̍t"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "苦味",
+          "romanization": "khóo-bī"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "了",
+          "romanization": "liáu"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "回甘",
+          "romanization": "huê-kam"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "嘛",
+          "romanization": "mā"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "清",
+          "romanization": "tshing"
+        },
+        {
+          "text": "熱",
+          "romanization": "jia̍t"
+        },
+        {
+          "text": "解毒",
+          "romanization": "kái-to̍k"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "降",
+          "romanization": "kàng"
+        },
+        {
+          "text": "火氣",
+          "romanization": "hué-khì"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "助",
+          "romanization": "tsōo"
+        },
+        {
+          "text": "消化",
+          "romanization": "siau-huà"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "對",
+          "romanization": "tuì"
+        },
+        {
+          "text": "咱",
+          "romanization": "lán"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "身體",
+          "romanization": "sin-thé"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "好",
+          "romanization": "hó"
+        },
+        {
+          "text": "無",
+          "romanization": "--bô"
+        },
+        {
+          "text": "䆀",
+          "romanization": "bái"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "恁",
+          "romanization": "lín"
+        },
+        {
+          "text": "會當",
+          "romanization": "ē-tàng"
+        },
+        {
+          "text": "慢慢仔",
+          "romanization": "bān-bān-á"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "看覓",
+          "romanization": "khuànn-māi"
+        },
+        {
+          "text": "咧",
+          "romanization": "--leh"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p5-s1": {
+      "text": "自彼擺過，阮沓沓仔開始接受苦瓜的料理，雖然無像阿爸遐爾仔佮意食，毋過我佮阿姊若看著苦瓜就袂閣再憂頭結面矣。",
+      "tokens": [
+        {
+          "text": "自",
+          "romanization": "Tsū"
+        },
+        {
+          "text": "彼",
+          "romanization": "hit"
+        },
+        {
+          "text": "擺",
+          "romanization": "pái"
+        },
+        {
+          "text": "過",
+          "romanization": "kuè"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "沓沓仔",
+          "romanization": "ta̍uh-ta̍uh-á"
+        },
+        {
+          "text": "開始",
+          "romanization": "khai-sí"
+        },
+        {
+          "text": "接受",
+          "romanization": "tsiap-siū"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "料理",
+          "romanization": "liāu-lí"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "雖然",
+          "romanization": "sui-jiân"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "像",
+          "romanization": "tshiūnn"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "遐爾仔",
+          "romanization": "hiah-nī-á"
+        },
+        {
+          "text": "佮意",
+          "romanization": "kah-ì"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "毋過",
+          "romanization": "m̄-koh"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "阿姊",
+          "romanization": "a-tsí"
+        },
+        {
+          "text": "若",
+          "romanization": "nā"
+        },
+        {
+          "text": "看著",
+          "romanization": "khuànn-tio̍h"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "袂",
+          "romanization": "bē"
+        },
+        {
+          "text": "閣再",
+          "romanization": "koh-tsài"
+        },
+        {
+          "text": "憂頭結面",
+          "romanization": "iu-thâu-kat-bīn"
+        },
+        {
+          "text": "矣",
+          "romanization": "--ah"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p5-s2": {
+      "text": "有一改我和阿母做伙去菜市仔買菜煞看著青色的苦瓜，阿母共我講彼是山苦瓜，若是提來炒鹹卵就變做餐廳的料理。",
+      "tokens": [
+        {
+          "text": "有",
+          "romanization": "Ū"
+        },
+        {
+          "text": "一",
+          "romanization": "tsi̍t"
+        },
+        {
+          "text": "改",
+          "romanization": "kái"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "和",
+          "romanization": "hām"
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "做伙",
+          "romanization": "tsò-hué"
+        },
+        {
+          "text": "去",
+          "romanization": "khì"
+        },
+        {
+          "text": "菜市仔",
+          "romanization": "tshài-tshī-á"
+        },
+        {
+          "text": "買",
+          "romanization": "bé"
+        },
+        {
+          "text": "菜",
+          "romanization": "tshài"
+        },
+        {
+          "text": "煞",
+          "romanization": "suah"
+        },
+        {
+          "text": "看著",
+          "romanization": "khuànn-tio̍h"
+        },
+        {
+          "text": "青色",
+          "romanization": "tshenn-sik"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "彼",
+          "romanization": "he"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "山苦瓜",
+          "romanization": "suann-khóo-kue"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "若是",
+          "romanization": "nā-sī"
+        },
+        {
+          "text": "提來",
+          "romanization": "the̍h-lâi"
+        },
+        {
+          "text": "炒",
+          "romanization": "tshá"
+        },
+        {
+          "text": "鹹卵",
+          "romanization": "kiâm-nn̄g"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "變做",
+          "romanization": "piàn-tsò"
+        },
+        {
+          "text": "餐廳",
+          "romanization": "tshan-thiann"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "料理",
+          "romanization": "liāu-lí"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p5-s3": {
+      "text": "我就請阿母買一條轉來炒。",
+      "tokens": [
+        {
+          "text": "我",
+          "romanization": "Guá"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "請",
+          "romanization": "tshiánn"
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "買",
+          "romanization": "bé"
+        },
+        {
+          "text": "一",
+          "romanization": "tsi̍t"
+        },
+        {
+          "text": "條",
+          "romanization": "tiâu"
+        },
+        {
+          "text": "轉來",
+          "romanization": "tńg-lâi"
+        },
+        {
+          "text": "炒",
+          "romanization": "tshá"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p5-s4": {
+      "text": "鹹卵會共伊苦 iám 苦 iám 的味壓落來，食著誠佮喙，確實佮白苦瓜的滋味無𫝛款。",
+      "tokens": [
+        {
+          "text": "鹹卵",
+          "romanization": "Kiâm-nn̄g"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "i",
+          "romanization": null
+        },
+        {
+          "text": "á",
+          "romanization": null
+        },
+        {
+          "text": "m",
+          "romanization": null
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "i",
+          "romanization": null
+        },
+        {
+          "text": "á",
+          "romanization": null
+        },
+        {
+          "text": "m",
+          "romanization": null
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "味",
+          "romanization": "bī"
+        },
+        {
+          "text": "壓",
+          "romanization": "ah"
+        },
+        {
+          "text": "落來",
+          "romanization": "--lo̍h-lâi"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "著",
+          "romanization": "tio̍h"
+        },
+        {
+          "text": "誠",
+          "romanization": "tsiânn"
+        },
+        {
+          "text": "佮喙",
+          "romanization": "kah-tshuì"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "確實",
+          "romanization": "khak-si̍t"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "白苦瓜",
+          "romanization": "pe̍h-khóo-kue"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "滋味",
+          "romanization": "tsu-bī"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "𫝛款",
+          "romanization": "siāng-khuán"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p6-s1": {
+      "text": "到今苦瓜佇阮兜猶是定定有的物配，會當和阿爸、阿母同齊享受苦甘的滋味是上快樂的，伊袂閣是我和阿姊的「烏暗料理」。",
+      "tokens": [
+        {
+          "text": "到今",
+          "romanization": "Kàu-tann"
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "佇",
+          "romanization": "tī"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "兜",
+          "romanization": "tau"
+        },
+        {
+          "text": "猶是",
+          "romanization": "iáu-sī"
+        },
+        {
+          "text": "定定",
+          "romanization": "tiānn-tiānn"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "物配",
+          "romanization": "mi̍h-phuè"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "會當",
+          "romanization": "ē-tàng"
+        },
+        {
+          "text": "和",
+          "romanization": "hām"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "同齊",
+          "romanization": "tâng-tsê"
+        },
+        {
+          "text": "享受",
+          "romanization": "hiáng-siū"
+        },
+        {
+          "text": "苦甘",
+          "romanization": "khóo-kam"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "滋味",
+          "romanization": "tsu-bī"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "上",
+          "romanization": "siōng"
+        },
+        {
+          "text": "快樂",
+          "romanization": "khuài-lo̍k"
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "袂",
+          "romanization": "bē"
+        },
+        {
+          "text": "閣",
+          "romanization": "koh"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "和",
+          "romanization": "hām"
+        },
+        {
+          "text": "阿姊",
+          "romanization": "a-tsí"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "烏暗",
+          "romanization": "oo-àm"
+        },
+        {
+          "text": "料理",
+          "romanization": "liāu-lí"
+        },
+        {
+          "text": "」",
+          "romanization": null
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p6-s2": {
+      "text": "苦瓜的滋味，阮已經食慣勢矣，苦瓜的料理攏好食呢。",
+      "tokens": [
+        {
+          "text": "苦瓜",
+          "romanization": "Khóo-kue"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "滋味",
+          "romanization": "tsu-bī"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "已經",
+          "romanization": "í-king"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "慣勢",
+          "romanization": "kuàn-sì"
+        },
+        {
+          "text": "矣",
+          "romanization": "--ah"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "苦瓜",
+          "romanization": "khóo-kue"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "料理",
+          "romanization": "liāu-lí"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "好食",
+          "romanization": "hó-tsia̍h"
+        },
+        {
+          "text": "呢",
+          "romanization": "--neh"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p7-s1": {
+      "text": "苦瓜敢會苦？",
+      "tokens": [
+        {
+          "text": "苦瓜",
+          "romanization": "Khóo-kue"
+        },
+        {
+          "text": "敢",
+          "romanization": "kám"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "苦",
+          "romanization": "khóo"
+        },
+        {
+          "text": "？",
+          "romanization": null
+        }
+      ]
+    },
+    "khoo-p7-s2": {
+      "text": "袂啦！",
+      "tokens": [
+        {
+          "text": "袂",
+          "romanization": "Bē"
+        },
+        {
+          "text": "啦",
+          "romanization": "--lah"
+        },
+        {
+          "text": "！",
+          "romanization": null
+        }
+      ]
+    }
+  },
+  "missing": [],
+  "differences": []
+}

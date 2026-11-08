@@ -1,7 +1,7 @@
 import {$,audio,state,ready,commitArticle,render,selectSentence,playSelected,playQueue,stop,toast} from '/app.mjs';
 import {validateArticle,playbackPlan,splitSentence} from '/model.mjs';
 await ready;
-const articleQuery=state.article.id==='tang-sng-uan'?'?article=02':'';
+const articleQuery=state.article.id==='khoo-kue'?'?article=03':state.article.id==='tang-sng-uan'?'?article=02':'';
 const draftKey=`slow-reading-${state.article.id}-v1`;
 let formDirty=false,draftDirty=false,loadedId=null,recorder=null,stream=null,recordTimer=null,recordStarted=0,staged=null,previewURL=null,busy=false;
 let reviewed=false,panelOpen=false,activePanel='text',splitOffset=0,lastSplit=null,saving=false,loadedRange=null;

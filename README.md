@@ -1,6 +1,6 @@
 # 慢慢唸 · 台語朗讀練習
 
-目前有兩篇：陳雅菁〈阿媽的查某囝〉（8 段，附錄音與台羅）及巫素宜〈阮兜的糖霜丸〉（5 段，附三份錄音、逐詞台羅、螢光筆與練習記號，22 句為待聽校初切版本）。練習頁上方可切換篇目，第二篇網址為 `/?article=02`。第一篇原始初切 23 句，可自行分割增加短句。使用 Node.js 22 以上；前端不需要安裝套件。
+前三篇為：陳雅菁〈阿媽的查某囝〉（8 段，附錄音與台羅）及巫素宜〈阮兜的糖霜丸〉（5 段，附三份錄音、逐詞台羅、螢光筆與練習記號，22 句為待聽校初切版本），以及蔡靜慧〈苦瓜哪會苦〉（附五份錄音與逐詞台羅）。練習頁上方可切換篇目，第二篇網址為 `/?article=02`。第一篇原始初切 23 句，可自行分割增加短句。使用 Node.js 22 以上；前端不需要安裝套件。
 
 ## 本機啟動
 
@@ -14,6 +14,8 @@ node server.mjs
 - 本機校對與重錄：http://localhost:4173/editor
 - 第二篇練習：http://localhost:4173/?article=02
 - 第二篇校對：http://localhost:4173/editor?article=02
+- 第三篇練習：http://localhost:4173/?article=03
+- 第三篇校對：http://localhost:4173/editor?article=03
 
 服務只監聽本機 `127.0.0.1`。線上版本只有練習頁；沒有校對頁、錄音入口或本機寫入 API。
 
@@ -70,7 +72,7 @@ node scripts/build-practice.mjs
 python -m pip install imageio-ffmpeg --target .tools/python
 ```
 
-重建原始錄音衍生檔的 `scripts/prepare_audio.py` 另需 NumPy。重跑會覆寫初切資料，請先備份。原始 23 句句界依停頓估計，尚需逐句聽校；支援分割長句，目前校對頁不支援合句或新增篇目。
+重建原始錄音衍生檔的 `scripts/prepare_audio.py` 需要 imageio-ffmpeg。重跑會覆寫初切資料，請先備份。原始 23 句句界依停頓估計，尚需逐句聽校；支援分割長句，目前校對頁不支援合句或新增篇目。
 
 驗證：
 
@@ -83,10 +85,12 @@ node --test tests/*.test.mjs
 
 第二篇台羅來源保存在 `sources/tailo-02-pasted.txt`，執行 `python scripts/prepare_tailo.py --second` 可重建 `public/tailo-02.json`。22 句的漢字皆有使用者提供的對照。
 
-第二篇音訊使用 `python scripts/prepare_audio.py --second` 建立，需 NumPy 與 imageio-ffmpeg。三份原音暫按第 1–2、3、4–5 段對應，總長約 4 分 27 秒；句界依停頓估計，尚未逐句人工聽校。原檔保留於 `Voice/`，音量調整版在 `public/audio/tang-sng-uan/`，實測約 −18.02、−18.01、−18.18 LUFS。處理與測量記錄分別為 `audio-report-02.json`、`audio-verification-02.json`。重跑音訊準備會覆寫第二篇初切資料，請先備份。
+第二篇音訊使用 `python scripts/prepare_audio.py --second` 建立，需 imageio-ffmpeg。三份原音暫按第 1–2、3、4–5 段對應，總長約 4 分 27 秒；句界依停頓估計，尚未逐句人工聽校。原檔保留於 `Voice/`，音量調整版在 `public/audio/tang-sng-uan/`，實測約 −18.02、−18.01、−18.18 LUFS。處理與測量記錄分別為 `audio-report-02.json`、`audio-verification-02.json`。重跑音訊準備會覆寫第二篇初切資料，請先備份。
 
-第二篇校對獨立儲存於 `.local/article-02.json`，備份為同名 `.backup`，不會覆寫第一篇；重錄沿用 `.local/recordings/`，由篇目與句子識別選擇套用對象。建立部署包時會同時封裝兩篇已儲存稿文與採用音檔，移除來源錄音路徑、波形和校對備註。
+第二篇校對獨立儲存於 `.local/article-02.json`，備份為同名 `.backup`，不會覆寫第一篇；重錄沿用 `.local/recordings/`，由篇目與句子識別選擇套用對象。建立部署包時會同時封裝三篇已儲存稿文與採用音檔，移除來源錄音路徑、波形和校對備註。
 
-第二篇加入標題與作者後，可執行 `python -X utf8 scripts/realign-second.py` 預覽按短語停頓重新對齊的結果；加上 `--apply` 才寫入，會先備份原始初切稿與已儲存稿，保留分句識別、文字、台羅修訂及採用重錄，將句界設為待確認。需與音訊準備相同的 Python 套件。結果記錄於 `audio-realignment-02.json`，仍屬停頓估計而非語音辨識或人工聽校。
+第二篇加入標題與作者後，可執行 `python -X utf8 scripts/realign-second.py` 預覽按短語停頓重新對齊的結果；加上 `--apply` 才寫入，會先備份原始初切稿與已儲存稿，保留分句識別、文字、台羅修訂及採用重錄，將句界設為待確認。另需 NumPy。結果記錄於 `audio-realignment-02.json`，仍屬停頓估計而非語音辨識或人工聽校。
+
+第三篇〈苦瓜哪會苦〉使用 `sources/tailo-03-pasted.txt` 的校對稿。先執行 `python -X utf8 scripts/prepare_audio.py --third` 產生初切資料與五份音量調整檔，再執行 `python -X utf8 scripts/prepare_tailo.py --third` 產生逐詞台羅。依錄音順序將五份原音對應到篇名與首段、第二段、第三段、第四段、末兩段；句界依停頓估計，待逐句聽校。處理紀錄在 `audio-report-03.json`，校對另存於 `.local/article-03.json`。
 
 重新對齊會更新句界版本。重新載入校對頁後不會套用舊版本草稿；舊草稿保留於瀏覽器的備份鍵。舊頁面的儲存要求會被拒絕，請先重新整理，避免把舊切點覆寫回專案。修改資料後需重啟已在執行的本機服務，再重建部署包。

@@ -4,8 +4,11 @@ export const $=id=>document.getElementById(id),audio=$('audio');
 export const state={article:null,base:null,selected:0,editing:document.body.dataset.editor==='true',item:null,queue:[],queueIndex:0,kind:'sentence',hooks:{},run:0,loading:false};
 let timer,repeatTimer,toastTimer,annotations,learned=new Set(),loadedSource=null;
 const audioCache=new Map();
-const secondArticle=new URLSearchParams(location.search).get('article')==='02';
-const progressKey=secondArticle?'slow-reading-progress-tang-sng-uan-v1':'slow-reading-progress-v1';
+const requestedArticle=new URLSearchParams(location.search).get('article');
+const articleNumber=['02','03'].includes(requestedArticle)?requestedArticle:'01';
+const suffix=articleNumber==='01'?'':`-${articleNumber}`;
+const articleQuery=suffix?`?article=${articleNumber}`:'';
+const progressKey=articleNumber==='03'?'slow-reading-progress-khoo-kue-v1':articleNumber==='02'?'slow-reading-progress-tang-sng-uan-v1':'slow-reading-progress-v1';
 async function cachedAudio(src){
   if(!audioCache.has(src))audioCache.set(src,(async()=>{const response=await fetch(src);if(!response.ok)throw new Error('音檔下載失敗');return URL.createObjectURL(await response.blob());})().catch(error=>{audioCache.delete(src);throw error;}));
   return audioCache.get(src);
@@ -103,31 +106,32 @@ for(const event of ['playing','seeked','ratechange'])audio.addEventListener(even
 audio.addEventListener('ended',()=>{if(state.item)advance();});audio.addEventListener('error',()=>{if(!state.loading)failed(new Error('無法讀取音源'));});
 document.addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea,button,a,[role=slider],[role=button]')||e.ctrlKey||e.metaKey||e.altKey)return;if(e.code==='Space'){e.preventDefault();togglePlay();}if(e.code==='ArrowRight')$('next').click();if(e.code==='ArrowLeft')$('previous').click();});
 export const ready=(async()=>{
-  const responses=await Promise.all([fetch(state.editing?'/api/article'+(secondArticle?'?article=02':''):secondArticle?'/article-02.json':'/article.json'),fetch(state.editing?'/api/base'+(secondArticle?'?article=02':''):secondArticle?'/article-02.json':'/article.json'),fetch(secondArticle?'/tailo-02.json':'/tailo.json')]);if(responses.some(r=>!r.ok))throw new Error('文章資料載入失敗');
+  const articleUrl=`/article${suffix}.json`;
+  const responses=await Promise.all([fetch(state.editing?'/api/article'+articleQuery:articleUrl),fetch(state.editing?'/api/base'+articleQuery:articleUrl),fetch(`/tailo${suffix}.json`)]);if(responses.some(r=>!r.ok))throw new Error('文章資料載入失敗');
   const [value,base,tailo]=await Promise.all(responses.map(r=>r.json()));state.base=base;state.tailo=tailo.sentences;state.article=validateArticle(value,base);
   annotations=createAnnotations({$,state,tailo:tailo.sentences,render,toast});
   try{learned=new Set(JSON.parse(localStorage.getItem(progressKey)||'[]').filter(id=>state.article.sentences.some(s=>s.id===id)));}catch{toast('練習紀錄無法還原');}
   const seconds=Math.round(state.article.tracks.reduce((sum,t)=>sum+t.duration,0));$('totalDuration').textContent=`· ${Math.floor(seconds/60)} 分 ${seconds%60} 秒`;
   for(const link of document.querySelectorAll('[data-article]')){
-    const current=link.dataset.article===(secondArticle?'02':'01');
+    const current=link.dataset.article===articleNumber;
     if(current)link.setAttribute('aria-current','page');
-    link.href=(state.editing?'/editor':'/')+(link.dataset.article==='02'?'?article=02':'');
+    link.href=(state.editing?'/editor':'/')+(link.dataset.article==='01'?'':`?article=${link.dataset.article}`);
     link.onclick=e=>{if(current||!beforeChange())e.preventDefault();};
   }
-  if(secondArticle){
+  if(suffix){
     document.title=`${value.title}｜慢慢唸`;
     document.querySelector('h1').textContent=value.title;
     document.querySelector('.byline').firstChild.textContent=value.author+' '; 
-    document.querySelector('.collection').innerHTML='<span>篇目 02</span><strong></strong><small></small>';
+    document.querySelector('.collection').innerHTML=`<span>篇目 ${articleNumber}</span><strong></strong><small></small>`;
     document.querySelector('.collection strong').textContent=value.title;
-    document.querySelector('.collection small').textContent=`${value.author} · 5 段稿文`;
-    document.querySelector('.breadcrumb').textContent='我的書房 / 散文朗讀 / 第二篇';
-    for(const link of document.querySelectorAll('a.mode'))link.href=link.getAttribute('href')+'?article=02';
-    document.querySelector('.article-heading .eyebrow').textContent='TAIWANESE READING · 02';
-    $('introTitle').textContent='阿奇的陪伴，予心肝頭暖暖。';
-    if(!state.editing)$('introText').textContent='點一句聽發音，也可以整段播放。讓阿奇的故事，陪你練習台語。';
+    document.querySelector('.collection small').textContent=`${value.author} · ${articleNumber==='03'?value.paragraphs.length-1:5} 段稿文`;
+    document.querySelector('.breadcrumb').textContent=`我的書房 / 散文朗讀 / 第${articleNumber==='03'?'三':'二'}篇`;
+    for(const link of document.querySelectorAll('a.mode'))link.href=link.getAttribute('href')+articleQuery;
+    document.querySelector('.article-heading .eyebrow').textContent=`TAIWANESE READING · ${articleNumber}`;
+    $('introTitle').textContent=articleNumber==='03'?'苦瓜食了會回甘。':'阿奇的陪伴，予心肝頭暖暖。';
+    if(!state.editing)$('introText').textContent=articleNumber==='03'?'點一句聽發音，也可以整段播放。':'點一句聽發音，也可以整段播放。讓阿奇的故事，陪你練習台語。';
   }
-  if(!state.editing)document.querySelector('.article-footer span:last-child').textContent='兩篇故事 · 慢慢練習';
+  if(!state.editing)document.querySelector('.article-footer span:last-child').textContent='三篇故事 · 慢慢練習';
   render();requestAnimationFrame(tick);
 })();
 ready.catch(e=>{$('paragraphs').textContent=`載入失敗：${e.message}`;toast('無法載入文章資料');});

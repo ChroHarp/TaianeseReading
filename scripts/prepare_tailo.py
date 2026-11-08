@@ -4,9 +4,11 @@ Missing annotations and source differences stay visible, never guessed.
 from pathlib import Path
 import json, re, difflib, sys
 second = "--second" in sys.argv
-source_file = "tailo-02-pasted.txt" if second else "tailo-pasted.txt"
-article_file = "article-02.json" if second else "article.json"
-output_file = "tailo-02.json" if second else "tailo.json"
+third = "--third" in sys.argv
+suffix = "-03" if third else "-02" if second else ""
+source_file = f"tailo{suffix}-pasted.txt"
+article_file = f"article{suffix}.json"
+output_file = f"tailo{suffix}.json"
 root = Path(__file__).resolve().parents[1]
 lines = [re.sub(r'[\u2060\ufeff]', '', s).strip() for s in (root/'sources'/source_file).read_text(encoding='utf-8').splitlines()]
 lines = [s for s in lines if s and s != '⇄']
@@ -15,13 +17,19 @@ roman = lambda s: not han(s) and bool(re.search(r'[a-zA-ZÀ-ž]', s))
 pairs=[]
 i=0
 while i<len(lines):
-    if roman(lines[i]) and i+1<len(lines) and han(lines[i+1]):
+    if third and lines[i] == 'iám':
+        pairs.append({'text':' iám ', 'romanization':None});i+=1
+    elif roman(lines[i]) and i+1<len(lines) and han(lines[i+1]):
         pairs.append({'text':lines[i+1], 'romanization':lines[i]});i+=2
     else:
         pairs.append({'text':lines[i], 'romanization':None});i+=1
 article=json.loads((root/'public'/article_file).read_text(encoding='utf-8'))
 if second:
     article['sentences'] = [{'id':f'tang-p{i+1}-s{j+1}', 'text':part} for i,text in enumerate(article['paragraphs']) for j,part in enumerate(re.findall(r'[^。！？]+[。！？][」』]?|[^。！？]+$',text))]
+if third:
+    title_end = next(i + 1 for i in range(len(pairs))
+                     if ''.join(p['text'] for p in pairs[:i+1]) == article['title'])
+    pairs.insert(title_end, {'text':'\u3000', 'romanization':None})
 source=''.join(p['text'] for p in pairs)
 target=''.join(s['text'] for s in article['sentences'])
 matcher=difflib.SequenceMatcher(None,source,target,autojunk=False)
