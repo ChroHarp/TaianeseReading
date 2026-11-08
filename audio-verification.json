@@ -1,0 +1,22 @@
+[
+  {
+    "file": "01.m4a",
+    "measuredLUFS": -17.95,
+    "truePeakDBTP": -1.49
+  },
+  {
+    "file": "02.m4a",
+    "measuredLUFS": -18.16,
+    "truePeakDBTP": -1.46
+  },
+  {
+    "file": "03.m4a",
+    "measuredLUFS": -17.95,
+    "truePeakDBTP": -1.47
+  },
+  {
+    "file": "04.m4a",
+    "measuredLUFS": -18.03,
+    "truePeakDBTP": -1.49
+  }
+]

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#284d41"><title>慢慢唸｜本機校對工作室</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/mobile.css"><link rel="stylesheet" href="/editor.css"></head>
+<body data-editor="true">
+  <header class="topbar"><a class="brand" href="/" aria-label="慢慢唸首頁"><span class="brand-mark">唸</span><span>慢慢唸 <small>台語朗讀練習</small></span></a><nav aria-label="工作模式"><a class="mode" href="/">朗讀練習</a><a class="mode active" href="/editor">本機校對 ✎</a></nav><span class="local-badge"><i></i> 本機工作室</span></header>
+  <main>
+    <aside class="sidebar"><p class="eyebrow">我的朗讀書房</p><div class="collection"><span>篇目 01</span><strong>阿媽的查某囝</strong><small>陳雅菁 · 8 段稿文</small></div><p class="eyebrow section-label">段落目錄</p><div id="paragraphNav"></div><div class="sidebar-note"><span>聲音裡，攏是感情。</span><p>一段一段聽，一句一句唸，<br>用自己的步調，親近台語。</p></div></aside>
+    <section class="workspace">
+      <nav class="article-picker" aria-label="選擇篇目"><span class="article-picker-label">選擇篇目</span><div class="article-buttons"><a class="article-button" data-article="01" href="/editor">01 · 阿媽的查某囝</a><a class="article-button" data-article="02" href="/editor?article=02">02 · 阮兜的糖霜丸</a></div></nav><div class="breadcrumb">我的書房 <span>/</span> 散文朗讀 <span>/</span> 第一篇</div>
+      <div class="article-heading"><div><p class="eyebrow">TAIWANESE READING · 01</p><h1>阿媽的查某囝</h1><p class="byline">陳雅菁 <span>著</span><span class="divider">|</span> 原聲朗讀 <span id="totalDuration"></span></p></div><div class="edition">聽見<br><b>台語的溫度</b></div></div>
+      <div class="intro"><span class="intro-icon">◖</span><div><strong id="introTitle">把熟悉的聲音，慢慢聽進心內。</strong><p id="introText">點一句就在下方編輯、分割或重錄。儲存後再確認；修改會自動回到待確認。</p></div></div>
+      <div class="reading-toolbar"><div><button id="playAll" class="primary">▶ 整篇聆聽</button><label class="check"><input id="repeat" type="checkbox"> 單句循環</label><label class="check"><input id="follow" type="checkbox" checked> 跟隨朗讀</label></div><label class="font-control">字級 <select id="fontSize" aria-label="稿文字級"><option value="21">標準</option><option value="25">大字</option><option value="29">特大</option></select></label></div>
+<div id="editorParking" hidden><section id="editor" class="editor inline-editor" aria-label="此句校對工具">
+  <div class="inline-heading"><strong id="editSentenceName"></strong><div><span id="sentenceReviewState" class="tag"></span><button id="closeEditor" aria-label="關閉此句工具">×</button></div></div>
+  <div class="editor-tabs" role="tablist" aria-label="此句操作"><button role="tab" id="textTab" aria-controls="textPanel" aria-selected="true">編輯稿文</button><button role="tab" id="splitTab" aria-controls="splitPanel" aria-selected="false">分割長句</button><button role="tab" id="recordTab" aria-controls="recordPanel" aria-selected="false">單句重錄</button></div>
+  <div id="textPanel" role="tabpanel" aria-labelledby="textTab">
+    <label class="field">稿文<textarea id="sentenceText" rows="3"></textarea></label>
+    <label class="field">台羅整句修訂（留空使用逐詞對照）<textarea id="sentenceRomanization" rows="2"></textarea></label>
+    <label class="field">校對備註<input id="sentenceNote" placeholder="例如：這裡重唸，起點往後移"></label>
+    <details class="timing-details"><summary>微調原錄音句界</summary>
+      <div class="edit-meta"><span>起訖時間以原錄音檔為準</span><label>試聽音源 <select id="audioVersion"><option value="normalized">採用版本／音量調整版</option><option value="original">原始錄音</option></select></label></div>
+      <div class="wave-wrap"><canvas id="waveform" height="100" role="slider" tabindex="0" aria-label="錄音波形定位" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></canvas><span id="waveTime">0:00</span></div>
+      <div class="boundary-grid"><label>起點（秒）<input id="startTime" type="number" step="0.01" min="0"><button id="setStart">以播放位置設起點</button></label><label>終點（秒）<input id="endTime" type="number" step="0.01" min="0"><button id="setEnd">以播放位置設終點</button></label><div class="audition"><button id="previewBoundary">試聽句尾前後</button><button id="playSource">▶ 聽這份原音</button></div></div>
+    </details>
+  </div>
+  <section id="splitPanel" role="tabpanel" aria-labelledby="splitTab" hidden>
+    <p class="editor-help">先在稿文中點選要切開的位置，再試聽聲音並設定分割秒數。前後兩句都會保留台羅與已採用的聲音，可再各自重錄。</p>
+    <label class="field">點選文字分割位置<textarea id="splitText" rows="3" readonly aria-label="文字分割位置"></textarea></label>
+    <div class="split-previews"><div><small>前句</small><p id="splitLeftText"></p></div><div><small>後句</small><p id="splitRightText"></p></div></div>
+    <p id="splitSourceInfo" class="editor-help"></p>
+    <div class="split-time"><label>聲音分割點（秒）<input id="splitTime" type="number" step="0.01"></label><button id="useSplitPosition">使用目前播放位置</button></div>
+    <div class="record-actions"><button id="playForSplit">▶ 播放此句找切點</button><button id="previewSplitLeft">▶ 試聽前句</button><button id="previewSplitRight">▶ 試聽後句</button></div>
+    <div id="splitRomanizationFields" hidden><p class="editor-help">此句有整句台羅修訂，請分別填寫前句與後句的拼音。</p><label class="field">前句台羅<input id="splitLeftRomanization"></label><label class="field">後句台羅<input id="splitRightRomanization"></label></div>
+    <div class="record-actions split-actions"><button id="commitSplit" class="primary">確認分割並儲存</button><button id="undoSplit" disabled>復原最近一次分割</button></div>
+    <p id="splitMessage" role="status" class="save-state"></p>
+  </section>
+  <section id="recordPanel" class="rerecord-panel" role="tabpanel" aria-labelledby="recordTab" hidden><h3>單句重錄</h3><p>試聽滿意後採用；雙遍平衡音量、限制峰值後才替換。原音保留，隨時可恢復。</p><div class="record-actions"><button id="startRecord">● 開始錄音</button><button id="stopRecord" disabled>■ 停止錄音</button><label class="file-button">或匯入音檔<input id="importRecording" type="file" accept="audio/*"></label><button id="discardRecording" disabled>捨棄這次錄音</button></div><p id="recordState" role="status">按下開始錄音後才會啟用麥克風。</p><audio id="recordPreview" controls hidden></audio><div class="record-actions"><button id="adoptRecording" class="primary" disabled>採用這次重錄</button><button id="restoreRecording" hidden>恢復原音</button><button id="compareOriginal">試聽原句</button></div></section>
+  <div class="editor-actions"><button id="previewSentence">▶ 試聽這一句</button><button id="saveProject" class="primary">儲存本句修改</button><button id="confirmSentence">✓ 確認完成並儲存</button><button id="markPending" hidden>改回待確認</button></div>
+  <p id="saveState" class="save-state" role="status">修改後儲存，再試聽確認；確認狀態不影響播放。</p>
+</section></div>
+<div class="annotation-toolbar"><label class="check"><input id="showTailo" type="checkbox" checked> 顯示台羅</label><label class="check"><input id="markerMode" type="checkbox"> 螢光筆</label><select id="markerColor" aria-label="螢光筆顏色"><option value="yellow">暖黃</option><option value="mint">薄荷綠</option><option value="pink">粉紅</option></select><button id="markSelection">標記選取文字</button><button id="eraseSelection">清除選取標記</button><span id="selectionHint">選取字詞後標記；開啟螢光筆也能點字。</span></div>      <div class="section-heading"><h2 id="readingTitle">讀故事，練台語</h2><span id="progressLabel">0 句已練習</span></div>
+      <p id="alignmentNote" class="alignment-note">◌ 逐句時間為自動初切，可至「稿文校對」微調確認。</p>
+      <div class="project-tools"><span id="reviewCount" class="tag"></span><button id="nextPending">下一句待確認</button><button id="exportData">匯出校對 JSON</button><label class="file-button">匯入 JSON<input id="importData" type="file" accept="application/json,.json"></label></div><div id="paragraphs"></div>
+      <footer class="article-footer"><span>慢慢唸，嘛會愈唸愈好。</span><span>第一篇 · 其餘篇目待加入</span></footer>
+    </section>
+  </main>
+  <section class="player" aria-label="聲音播放器"><div class="now-playing"><span class="record-icon">♫</span><div><strong id="nowTitle">準備好，就開始聽。</strong><small id="nowDetail">選一句，聽聽熟悉的聲音</small></div></div><div class="transport"><div class="transport-buttons"><button id="previous" aria-label="上一句">❮</button><button id="togglePlay" class="play-toggle" aria-label="播放">▶</button><button id="next" aria-label="下一句">❯</button><select id="speed" aria-label="播放速度"><option value="0.65">0.65×</option><option value="0.8">0.8×</option><option value="1" selected>1.0×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option></select></div><div class="seek-row"><span id="elapsed">0:00</span><input id="seek" type="range" min="0" max="100" value="0" step="0.01" aria-label="播放進度"><span id="duration">0:00</span></div></div><div class="volume-control"><label for="volume">音量</label><input id="volume" type="range" min="0" max="1" value="0.85" step="0.01"><small>已平衡錄音音量</small></div></section>
+  <div id="toast" role="status" aria-live="polite"></div><audio id="audio" preload="metadata"></audio><script type="module" src="/editor.mjs"></script>
+</body></html>

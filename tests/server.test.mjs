@@ -1,0 +1,70 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {mkdir,mkdtemp,readFile,rm} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {splitSentence} from '../public/model.mjs';
+const root=fileURLToPath(new URL('..',import.meta.url));
+test('HTTP audio seeking and durable validated saves work end to end',async()=>{
+  await mkdir(path.join(root,'.local'),{recursive:true});
+  const data=await mkdtemp(path.join(root,'.local','test-'));
+  const child=spawn(process.execPath,['server.mjs'],{cwd:root,env:{...process.env,PORT:'4174',READING_DATA_DIR:data},stdio:['ignore','pipe','pipe']});
+  const origin='http://127.0.0.1:4174';
+  try {
+    await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(new Error('server timeout')),10000);child.stdout.once('data',()=>{clearTimeout(timer);resolve();});child.once('error',reject);child.once('exit',code=>{if(code)reject(new Error('server exited '+code));});});
+    assert.equal((await fetch(origin)).status,200);
+    const response=await fetch(origin+'/audio/01.m4a',{headers:{Range:'bytes=0-127'}});
+    assert.equal(response.status,206);assert.equal((await response.arrayBuffer()).byteLength,128);assert.match(response.headers.get('content-type'),/audio/);
+    assert.equal((await fetch(origin+'/audio/01.m4a',{headers:{Range:'bytes=999999999-'}})).status,416);
+    assert.equal((await fetch(origin+'/audio/01.m4a',{headers:{Range:'bytes=-64'}})).headers.get('content-length'),'64');
+    const second=await (await fetch(origin+'/api/article?article=02')).json();
+    assert.equal(second.id,'tang-sng-uan');assert.equal(second.tracks.length,3);
+    assert.equal((await (await fetch(origin+'/api/base?article=02')).json()).id,second.id);
+    second.sentences[0].note='second article isolated save';
+    const putSecond=value=>fetch(origin+'/api/article?article=02',{method:'PUT',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify(value)});
+    assert.equal((await putSecond(second)).status,200);
+    assert.equal((await (await fetch(origin+'/article-02.json')).json()).sentences[0].note,second.sentences[0].note);
+    assert.equal(JSON.parse(await readFile(path.join(data,'article-02.json'),'utf8')).id,second.id);
+    assert.equal((await putSecond(JSON.parse(await readFile(path.join(root,'public/article.json'),'utf8')))).status,400);
+    assert.equal((await fetch(origin+second.tracks[0].src,{headers:{Range:'bytes=0-127'}})).status,206);
+    const base=await (await fetch(origin+'/api/article')).json();
+    const put=(value,site=origin)=>fetch(origin+'/api/article',{method:'PUT',headers:{Origin:site,'Content-Type':'application/json'},body:JSON.stringify(value)});
+    assert.equal((await put(base,'https://other.invalid')).status,403);
+    const bad=structuredClone(base);bad.sentences[0].end=999;assert.equal((await put(bad)).status,400);
+    base.sentences[0].note='HTTP test';base.sentences[0].reviewed=true;
+    assert.equal((await put(base)).status,200);
+    assert.equal((await (await fetch(origin+'/api/article')).json()).sentences[0].note,'HTTP test');
+    assert.equal(JSON.parse(await readFile(path.join(data,'article.json'),'utf8')).sentences[0].reviewed,true);
+    assert.equal((await put(base)).status,200);assert.ok(await readFile(path.join(data,'article.json.backup')));
+    // A generated local WAV exercises the same upload / normalize / adopt path as MediaRecorder.
+    const frames=16000,wav=Buffer.alloc(44+frames*2);wav.write('RIFF');wav.writeUInt32LE(wav.length-8,4);wav.write('WAVEfmt ',8);wav.writeUInt32LE(16,16);wav.writeUInt16LE(1,20);wav.writeUInt16LE(1,22);wav.writeUInt32LE(16000,24);wav.writeUInt32LE(32000,28);wav.writeUInt16LE(2,32);wav.writeUInt16LE(16,34);wav.write('data',36);wav.writeUInt32LE(frames*2,40);
+    for(let i=0;i<frames;i++)wav.writeInt16LE(Math.round(Math.sin(i/16000*440*Math.PI*2)*3000),44+i*2);
+    const upload=(body,site=origin)=>fetch(origin+'/api/recordings/s01',{method:'POST',headers:{Origin:site,'Content-Type':'audio/wav'},body});
+    assert.equal((await upload(wav,'https://other.invalid')).status,403);
+    assert.equal((await upload(Buffer.from('invalid audio'))).status,400);
+    assert.equal((await fetch(origin+'/api/recordings/'+second.sentences[0].id,{method:'POST',headers:{Origin:origin,'Content-Type':'audio/wav'},body:wav})).status,404);
+    const secondUpload=await fetch(origin+'/api/recordings/'+second.sentences[0].id+'?article=02',{method:'POST',headers:{Origin:origin,'Content-Type':'audio/wav'},body:wav});
+    assert.equal(secondUpload.status,200);second.sentences[0].replacement=await secondUpload.json();
+    assert.equal((await putSecond(second)).status,200);
+    const responseRecording=await upload(wav);assert.equal(responseRecording.status,200,await responseRecording.clone().text());
+    const replacement=await responseRecording.json();assert.match(replacement.src,/^\/recordings\/.*\.m4a$/);assert.ok(replacement.duration>=.99&&replacement.duration<1.1);
+    const processing=JSON.parse(await readFile(path.join(data,'recordings',path.basename(replacement.src).replace('.m4a','.processing.json')),'utf8'));
+    assert.equal(processing.pipeline,'two-pass-loudnorm');assert.equal(processing.targetLUFS,-18);assert.equal(processing.truePeakLimitDBTP,-1.5);
+    assert.equal((await fetch(origin+replacement.src,{headers:{Range:'bytes=0-127'}})).status,206);
+    base.sentences[0].replacement=replacement;assert.equal((await put(base)).status,200);
+    assert.deepEqual((await (await fetch(origin+'/api/article')).json()).sentences[0].replacement,replacement);
+    delete base.sentences[0].replacement;assert.equal((await put(base)).status,200);
+    const split=splitSentence(base,0,{offset:10,time:5,id:'s01-deadbeef'});assert.equal((await put(split)).status,200);
+    const reopened=await(await fetch(origin+'/api/article')).json();assert.equal(reopened.sentences.length,24);assert.equal(reopened.sentences[1].id,'s01-deadbeef');
+    assert.equal((await(await fetch(origin+'/api/base')).json()).sentences.length,23);
+    const childUpload=await fetch(origin+'/api/recordings/s01-deadbeef',{method:'POST',headers:{Origin:origin,'Content-Type':'audio/wav'},body:wav});assert.equal(childUpload.status,200);
+    reopened.sentences[1].replacement=await childUpload.json();assert.equal((await put(reopened)).status,200);
+    assert.equal((await fetch(origin+'/editor')).status,200);assert.equal((await fetch(origin+'/editor.mjs')).status,200);
+    assert.equal((await fetch(origin+'/local/recordings.mjs')).status,404);
+  } finally {
+    child.kill();await new Promise(resolve=>child.exitCode!==null?resolve():child.once('exit',resolve));
+    // Only remove this test's freshly generated directory, within .local.
+    assert.ok(path.resolve(data).startsWith(path.join(root,'.local')+path.sep));await rm(data,{recursive:true,force:true});
+  }
+});

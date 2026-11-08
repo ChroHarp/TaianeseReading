@@ -1,0 +1,2311 @@
+{
+  "source": "使用者提供之台羅對照稿",
+  "sentences": {
+    "s01": {
+      "text": "阿媽這世人上大的遺憾，就是無生查某囝，雖然伊喙裡定定講：「查埔、查某攏仝款。」",
+      "tokens": [
+        {
+          "text": "阿媽",
+          "romanization": "A-má"
+        },
+        {
+          "text": "這世人",
+          "romanization": "tsit-sì-lâng"
+        },
+        {
+          "text": "上",
+          "romanization": "siōng"
+        },
+        {
+          "text": "大",
+          "romanization": "tuā"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "遺憾",
+          "romanization": "uî-hām"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "生",
+          "romanization": "senn"
+        },
+        {
+          "text": "查某囝",
+          "romanization": "tsa-bóo-kiánn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "雖然",
+          "romanization": "sui-jiân"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "喙裡",
+          "romanization": "tshuì--lí"
+        },
+        {
+          "text": "定定",
+          "romanization": "tiānn-tiānn"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "查埔",
+          "romanization": "tsa-poo"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "查某",
+          "romanization": "tsa-bóo"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "仝款",
+          "romanization": "kāng-khuán"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "s02": {
+      "text": "毋過我不時都聽著伊共阿母講：「恁阿爸真好命，飼恁三个查某囝。」",
+      "tokens": [
+        {
+          "text": "毋過",
+          "romanization": "M̄-koh"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "不時",
+          "romanization": "put-sî"
+        },
+        {
+          "text": "都",
+          "romanization": "to"
+        },
+        {
+          "text": "聽著",
+          "romanization": "thiann-tio̍h"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "恁",
+          "romanization": "lín"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "真",
+          "romanization": "tsin"
+        },
+        {
+          "text": "好命",
+          "romanization": "hó-miā"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "飼",
+          "romanization": "tshī"
+        },
+        {
+          "text": "恁",
+          "romanization": "lín"
+        },
+        {
+          "text": "三",
+          "romanization": "sann"
+        },
+        {
+          "text": "个",
+          "romanization": "ê"
+        },
+        {
+          "text": "查某囝",
+          "romanization": "tsa-bóo-kiánn"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "s03": {
+      "text": "我是阿媽𤆬大漢的，六歲進前攏咧讀「阿媽幼稚園」。",
+      "tokens": [
+        {
+          "text": "我",
+          "romanization": "Guá"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "𤆬",
+          "romanization": "tshuā"
+        },
+        {
+          "text": "大漢",
+          "romanization": "tuā-hàn"
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "六",
+          "romanization": "la̍k"
+        },
+        {
+          "text": "歲",
+          "romanization": "huè"
+        },
+        {
+          "text": "進前",
+          "romanization": "tsìn-tsîng"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "咧",
+          "romanization": "teh"
+        },
+        {
+          "text": "讀",
+          "romanization": "tha̍k"
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "幼稚園",
+          "romanization": "iù-tī-hn̂g"
+        },
+        {
+          "text": "」",
+          "romanization": null
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s04": {
+      "text": "阿媽華語講袂輪轉，伊就教我講臺灣台語，所以論真講起來，臺灣台語是我頭一个學著的語言。",
+      "tokens": [
+        {
+          "text": "阿媽",
+          "romanization": "A-má"
+        },
+        {
+          "text": "華語",
+          "romanization": "huâ-gí"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "袂",
+          "romanization": "bē"
+        },
+        {
+          "text": "輪轉",
+          "romanization": "lûn-tńg"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "教",
+          "romanization": "kà"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "臺灣",
+          "romanization": "tâi-uân"
+        },
+        {
+          "text": "台語",
+          "romanization": "tâi-gí"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "所以",
+          "romanization": "sóo-í"
+        },
+        {
+          "text": "論真",
+          "romanization": "lūn-tsin"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "起來",
+          "romanization": "--khí-lâi"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "臺灣",
+          "romanization": "tâi-uân"
+        },
+        {
+          "text": "台語",
+          "romanization": "tâi-gí"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "頭",
+          "romanization": "thâu"
+        },
+        {
+          "text": "一",
+          "romanization": "tsi̍t"
+        },
+        {
+          "text": "个",
+          "romanization": "ê"
+        },
+        {
+          "text": "學著",
+          "romanization": "o̍h--tio̍h"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "語言",
+          "romanization": "gí-giân"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s05": {
+      "text": "阿媽共我惜命命，伊磕袂著就共朋友品講：「這粒糖含仔是欲請我食大餅的呢！」",
+      "tokens": [
+        {
+          "text": "阿媽",
+          "romanization": "A-má"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "惜命命",
+          "romanization": "sioh-miā-miā"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "磕袂著",
+          "romanization": "kha̍p-bē-tio̍h"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "朋友",
+          "romanization": "pîng-iú"
+        },
+        {
+          "text": "品",
+          "romanization": "phín"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "這",
+          "romanization": "tsit"
+        },
+        {
+          "text": "粒",
+          "romanization": "lia̍p"
+        },
+        {
+          "text": "糖含仔",
+          "romanization": "thn̂g-kâm-á"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "欲",
+          "romanization": "beh"
+        },
+        {
+          "text": "請",
+          "romanization": "tshiánn"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "大餅",
+          "romanization": "tuā-piánn"
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "呢",
+          "romanization": "--neh"
+        },
+        {
+          "text": "！",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "s06": {
+      "text": "阿母攏笑講，袂輸我才是阿媽的查某囝。",
+      "tokens": [
+        {
+          "text": "阿母",
+          "romanization": "A-bú"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "笑",
+          "romanization": "tshiò"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "袂輸",
+          "romanization": "bē-su"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "才是",
+          "romanization": "tsiah-sī"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "查某囝",
+          "romanization": "tsa-bóo-kiánn"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s07": {
+      "text": "若講著阮阿媽，伊做查某囡仔的時，就綴阿公對下港來臺北拍拚。",
+      "tokens": [
+        {
+          "text": "若",
+          "romanization": "Nā"
+        },
+        {
+          "text": "講著",
+          "romanization": "kóng-tio̍h"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "做",
+          "romanization": "tsò"
+        },
+        {
+          "text": "查某",
+          "romanization": "tsa-bóo"
+        },
+        {
+          "text": "囡仔",
+          "romanization": "gín-á"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "時",
+          "romanization": "sî"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "綴",
+          "romanization": "tuè"
+        },
+        {
+          "text": "阿公",
+          "romanization": "a-kong"
+        },
+        {
+          "text": "對",
+          "romanization": "tuì"
+        },
+        {
+          "text": "下港",
+          "romanization": "ē-káng"
+        },
+        {
+          "text": "來",
+          "romanization": "lâi"
+        },
+        {
+          "text": "臺北",
+          "romanization": "tâi-pak"
+        },
+        {
+          "text": "拍拚",
+          "romanization": "phah-piànn"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s08": {
+      "text": "伊的個性足溫馴的，我真罕得看著伊咧使性地。",
+      "tokens": [
+        {
+          "text": "伊",
+          "romanization": "I"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "個性",
+          "romanization": "kò-sìng"
+        },
+        {
+          "text": "足",
+          "romanization": "tsiok"
+        },
+        {
+          "text": "溫馴",
+          "romanization": "un-sûn"
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "真",
+          "romanization": "tsin"
+        },
+        {
+          "text": "罕得",
+          "romanization": "hán-tit"
+        },
+        {
+          "text": "看著",
+          "romanization": "khuànn-tio̍h"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "咧",
+          "romanization": "teh"
+        },
+        {
+          "text": "使性地",
+          "romanization": "sái-sìng-tē"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s09": {
+      "text": "伊毋但共規个家扞甲真好勢，照顧厝內的人嘛足周至。",
+      "tokens": [
+        {
+          "text": "伊",
+          "romanization": "I"
+        },
+        {
+          "text": "毋但",
+          "romanization": "m̄-nā"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "規个",
+          "romanization": "kui-ê"
+        },
+        {
+          "text": "家",
+          "romanization": "ke"
+        },
+        {
+          "text": "扞",
+          "romanization": "huānn"
+        },
+        {
+          "text": "甲",
+          "romanization": "kah"
+        },
+        {
+          "text": "真",
+          "romanization": "tsin"
+        },
+        {
+          "text": "好勢",
+          "romanization": "hó-sè"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "照顧",
+          "romanization": "tsiàu-kòo"
+        },
+        {
+          "text": "厝內",
+          "romanization": "tshù-lāi"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "人",
+          "romanization": "lâng"
+        },
+        {
+          "text": "嘛",
+          "romanization": "mā"
+        },
+        {
+          "text": "足",
+          "romanization": "tsiok"
+        },
+        {
+          "text": "周至",
+          "romanization": "tsiu-tsì"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s10": {
+      "text": "會記得細漢的時，我若破病，阿媽規暝攏無咧睏，連鞭用度針共我巡看有退燒無、連鞭煩惱我敢有踢被，連阮彼个正牌的阿母都綴伊袂著。",
+      "tokens": [
+        {
+          "text": "會記得",
+          "romanization": "Ē-kì-tit"
+        },
+        {
+          "text": "細漢",
+          "romanization": "sè-hàn"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "時",
+          "romanization": "sî"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "若",
+          "romanization": "nā"
+        },
+        {
+          "text": "破病",
+          "romanization": "phuà-pēnn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "規",
+          "romanization": "kui"
+        },
+        {
+          "text": "暝",
+          "romanization": "mê"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "咧",
+          "romanization": "teh"
+        },
+        {
+          "text": "睏",
+          "romanization": "khùn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "連鞭",
+          "romanization": "liâm-mi"
+        },
+        {
+          "text": "用",
+          "romanization": "iōng"
+        },
+        {
+          "text": "度針",
+          "romanization": "tōo-tsiam"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "巡",
+          "romanization": "sûn"
+        },
+        {
+          "text": "看",
+          "romanization": "khuànn"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "退燒",
+          "romanization": "thè-sio"
+        },
+        {
+          "text": "無",
+          "romanization": "--bô"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "連鞭",
+          "romanization": "liâm-mi"
+        },
+        {
+          "text": "煩惱",
+          "romanization": "huân-ló"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "敢",
+          "romanization": "kám"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "踢",
+          "romanization": "that"
+        },
+        {
+          "text": "被",
+          "romanization": "phuē"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "連",
+          "romanization": "liân"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "彼",
+          "romanization": "hit"
+        },
+        {
+          "text": "个",
+          "romanization": "ê"
+        },
+        {
+          "text": "正牌",
+          "romanization": "tsiànn-pâi"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "都",
+          "romanization": "to"
+        },
+        {
+          "text": "綴",
+          "romanization": "tuè"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "袂",
+          "romanization": "bē"
+        },
+        {
+          "text": "著",
+          "romanization": "tio̍h"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s11": {
+      "text": "雖然阿媽無讀真濟冊，毋過對序細的教育閣不止仔用心。",
+      "tokens": [
+        {
+          "text": "雖然",
+          "romanization": "Sui-jiân"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "讀",
+          "romanization": "tha̍k"
+        },
+        {
+          "text": "真",
+          "romanization": "tsin"
+        },
+        {
+          "text": "濟",
+          "romanization": "tsē"
+        },
+        {
+          "text": "冊",
+          "romanization": "tsheh"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "毋過",
+          "romanization": "m̄-koh"
+        },
+        {
+          "text": "對",
+          "romanization": "tuì"
+        },
+        {
+          "text": "序細",
+          "romanization": "sī-sè"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "教育",
+          "romanization": "kàu-io̍k"
+        },
+        {
+          "text": "閣",
+          "romanization": "koh"
+        },
+        {
+          "text": "不止仔",
+          "romanization": "put-tsí-á"
+        },
+        {
+          "text": "用心",
+          "romanization": "iōng-sim"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s12": {
+      "text": "伊定定講：「少年若袂曉想，食老就毋成樣。」",
+      "tokens": [
+        {
+          "text": "伊",
+          "romanization": "I"
+        },
+        {
+          "text": "定定",
+          "romanization": "tiānn-tiānn"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "少年",
+          "romanization": "siàu-liân"
+        },
+        {
+          "text": "若",
+          "romanization": "nā"
+        },
+        {
+          "text": "袂曉",
+          "romanization": "bē-hiáu"
+        },
+        {
+          "text": "想",
+          "romanization": "siūnn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "食老",
+          "romanization": "tsia̍h-lāu"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "毋成樣",
+          "romanization": "m̄-tsiânn-iūnn"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "s13": {
+      "text": "所以我攏有共阿媽的教示記佇心肝頭。",
+      "tokens": [
+        {
+          "text": "所以",
+          "romanization": "Sóo-í"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "教示",
+          "romanization": "kà-sī"
+        },
+        {
+          "text": "記",
+          "romanization": "kì"
+        },
+        {
+          "text": "佇",
+          "romanization": "tī"
+        },
+        {
+          "text": "心肝頭",
+          "romanization": "sim-kuann-thâu"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s14": {
+      "text": "阮規家伙仔鬥陣食飯的時，桌頂若是有雞腿，阿媽定著會共夾來我的碗裡。",
+      "tokens": [
+        {
+          "text": "阮",
+          "romanization": "Guán"
+        },
+        {
+          "text": "規家伙仔",
+          "romanization": "kui-ke-hué-á"
+        },
+        {
+          "text": "鬥陣",
+          "romanization": "tàu-tīn"
+        },
+        {
+          "text": "食飯",
+          "romanization": "tsia̍h-pn̄g"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "時",
+          "romanization": "sî"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "桌頂",
+          "romanization": "toh-tíng"
+        },
+        {
+          "text": "若是",
+          "romanization": "nā-sī"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "雞腿",
+          "romanization": "ke-thuí"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "定著",
+          "romanization": "tiānn-tio̍h"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "夾來",
+          "romanization": "ngeh-lâi"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "碗裡",
+          "romanization": "uánn-lí"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s15": {
+      "text": "聽講我猶未出世進前，這肢雞腿攏是阮阿爸的額喔！",
+      "tokens": [
+        {
+          "text": "聽講",
+          "romanization": "Thiann-kóng"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "猶未",
+          "romanization": "iáu-buē"
+        },
+        {
+          "text": "出世",
+          "romanization": "tshut-sì"
+        },
+        {
+          "text": "進前",
+          "romanization": "tsìn-tsîng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "這",
+          "romanization": "tsit"
+        },
+        {
+          "text": "肢",
+          "romanization": "ki"
+        },
+        {
+          "text": "雞腿",
+          "romanization": "ke-thuí"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "阿爸",
+          "romanization": "a-pah"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "額",
+          "romanization": "gia̍h"
+        },
+        {
+          "text": "喔",
+          "romanization": "--ooh"
+        },
+        {
+          "text": "！",
+          "romanization": null
+        }
+      ]
+    },
+    "s16": {
+      "text": "伊知影我上愛食炕肉佮扁食湯，見擺若去阿媽遐，伊攏會攢便便等我。",
+      "tokens": [
+        {
+          "text": "伊",
+          "romanization": "I"
+        },
+        {
+          "text": "知影",
+          "romanization": "tsai-iánn"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "上",
+          "romanization": "siōng"
+        },
+        {
+          "text": "愛",
+          "romanization": "ài"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "炕肉",
+          "romanization": "khòng-bah"
+        },
+        {
+          "text": "佮",
+          "romanization": "kah"
+        },
+        {
+          "text": "扁食湯",
+          "romanization": "pián-si̍t-thng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "見擺",
+          "romanization": "kiàn-pái"
+        },
+        {
+          "text": "若",
+          "romanization": "nā"
+        },
+        {
+          "text": "去",
+          "romanization": "khì"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "遐",
+          "romanization": "hia"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "攢",
+          "romanization": "tshuân"
+        },
+        {
+          "text": "便便",
+          "romanization": "piān-piān"
+        },
+        {
+          "text": "等",
+          "romanization": "tán"
+        },
+        {
+          "text": "我",
+          "romanization": "--guá"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s17": {
+      "text": "食飯的時，我感覺足 ku-kuài 的，阿媽的箸攏無啥咧振動，干焦坐佇我的邊仔對我微微仔笑、金金相，若親像看著我食物件，伊毋免食飯就飽 tu-tu 矣。",
+      "tokens": [
+        {
+          "text": "食飯",
+          "romanization": "Tsia̍h-pn̄g"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "時",
+          "romanization": "sî"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "感覺",
+          "romanization": "kám-kak"
+        },
+        {
+          "text": "足",
+          "romanization": "tsiok"
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "k",
+          "romanization": null
+        },
+        {
+          "text": "u",
+          "romanization": null
+        },
+        {
+          "text": "-",
+          "romanization": null
+        },
+        {
+          "text": "k",
+          "romanization": null
+        },
+        {
+          "text": "u",
+          "romanization": null
+        },
+        {
+          "text": "à",
+          "romanization": null
+        },
+        {
+          "text": "i",
+          "romanization": null
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "的",
+          "romanization": "--ê"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "箸",
+          "romanization": "tī"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "無",
+          "romanization": "bô"
+        },
+        {
+          "text": "啥",
+          "romanization": "siánn"
+        },
+        {
+          "text": "咧",
+          "romanization": "teh"
+        },
+        {
+          "text": "振動",
+          "romanization": "tín-tāng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "干焦",
+          "romanization": "kan-na"
+        },
+        {
+          "text": "坐",
+          "romanization": "tsē"
+        },
+        {
+          "text": "佇",
+          "romanization": "tī"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "邊仔",
+          "romanization": "pinn--á"
+        },
+        {
+          "text": "對",
+          "romanization": "tuì"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "微微仔",
+          "romanization": "bî-bî-á"
+        },
+        {
+          "text": "笑",
+          "romanization": "tshiò"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "金金相",
+          "romanization": "kim-kim-siòng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "若親像",
+          "romanization": "ná-tshin-tshiūnn"
+        },
+        {
+          "text": "看著",
+          "romanization": "khuànn-tio̍h"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "物件",
+          "romanization": "mi̍h-kiānn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "毋免",
+          "romanization": "m̄-bián"
+        },
+        {
+          "text": "食飯",
+          "romanization": "tsia̍h-pn̄g"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "飽",
+          "romanization": "pá"
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "t",
+          "romanization": null
+        },
+        {
+          "text": "u",
+          "romanization": null
+        },
+        {
+          "text": "-",
+          "romanization": null
+        },
+        {
+          "text": "t",
+          "romanization": null
+        },
+        {
+          "text": "u",
+          "romanization": null
+        },
+        {
+          "text": " ",
+          "romanization": null
+        },
+        {
+          "text": "矣",
+          "romanization": "--ah"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s18": {
+      "text": "阿爸、阿母不時都真無閒，毋過好佳哉有「阿媽救援隊」會當出動。",
+      "tokens": [
+        {
+          "text": "阿爸",
+          "romanization": "A-pah"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "不時",
+          "romanization": "put-sî"
+        },
+        {
+          "text": "都",
+          "romanization": "to"
+        },
+        {
+          "text": "真",
+          "romanization": "tsin"
+        },
+        {
+          "text": "無閒",
+          "romanization": "bô-îng"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "毋過",
+          "romanization": "m̄-koh"
+        },
+        {
+          "text": "好佳哉",
+          "romanization": "hó-ka-tsài"
+        },
+        {
+          "text": "有",
+          "romanization": "ū"
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "救援隊",
+          "romanization": "kiù-uān-tuī"
+        },
+        {
+          "text": "」",
+          "romanization": null
+        },
+        {
+          "text": "會當",
+          "romanization": "ē-tàng"
+        },
+        {
+          "text": "出動",
+          "romanization": "tshut-tōng"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s19": {
+      "text": "伊會𤆬我去公園騎跤踏車、陪我去文具店買隔轉工學校欲用的物件，嘛定定買斡角仔彼間的箍仔粿予我食。",
+      "tokens": [
+        {
+          "text": "伊",
+          "romanization": "I"
+        },
+        {
+          "text": "會",
+          "romanization": "ē"
+        },
+        {
+          "text": "𤆬",
+          "romanization": "tshuā"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "去",
+          "romanization": "khì"
+        },
+        {
+          "text": "公園",
+          "romanization": "kong-hn̂g"
+        },
+        {
+          "text": "騎",
+          "romanization": "khiâ"
+        },
+        {
+          "text": "跤踏車",
+          "romanization": "kha-ta̍h-tshia"
+        },
+        {
+          "text": "、",
+          "romanization": null
+        },
+        {
+          "text": "陪",
+          "romanization": "puê"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "去",
+          "romanization": "khì"
+        },
+        {
+          "text": "文具店",
+          "romanization": "bûn-kū-tiàm"
+        },
+        {
+          "text": "買",
+          "romanization": "bé"
+        },
+        {
+          "text": "隔轉工",
+          "romanization": "keh-tńg-kang"
+        },
+        {
+          "text": "學校",
+          "romanization": "ha̍k-hāu"
+        },
+        {
+          "text": "欲",
+          "romanization": "beh"
+        },
+        {
+          "text": "用",
+          "romanization": "iōng"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "物件",
+          "romanization": "mi̍h-kiānn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "嘛",
+          "romanization": "mā"
+        },
+        {
+          "text": "定定",
+          "romanization": "tiānn-tiānn"
+        },
+        {
+          "text": "買",
+          "romanization": "bé"
+        },
+        {
+          "text": "斡角仔",
+          "romanization": "uat-kak-á"
+        },
+        {
+          "text": "彼",
+          "romanization": "hit"
+        },
+        {
+          "text": "間",
+          "romanization": "king"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "箍仔粿",
+          "romanization": "khoo-á-kué"
+        },
+        {
+          "text": "予",
+          "romanization": "hōo"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "食",
+          "romanization": "tsia̍h"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s20": {
+      "text": "阿媽就親像阮阿母，我若是共阿媽司奶一下，伊的煩惱就攏擲挕捒矣。",
+      "tokens": [
+        {
+          "text": "阿媽",
+          "romanization": "A-má"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "親像",
+          "romanization": "tshin-tshiūnn"
+        },
+        {
+          "text": "阮",
+          "romanization": "guán"
+        },
+        {
+          "text": "阿母",
+          "romanization": "a-bú"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "若是",
+          "romanization": "nā-sī"
+        },
+        {
+          "text": "共",
+          "romanization": "kā"
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "司奶",
+          "romanization": "sai-nai"
+        },
+        {
+          "text": "一下",
+          "romanization": "--tsi̍t-ē"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "煩惱",
+          "romanization": "huân-ló"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "攏",
+          "romanization": "lóng"
+        },
+        {
+          "text": "擲挕捒",
+          "romanization": "tàn-hìnn-sak"
+        },
+        {
+          "text": "矣",
+          "romanization": "--ah"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s21": {
+      "text": "我若歡喜，伊就綴我笑；我若悲傷，伊就綴我吼。",
+      "tokens": [
+        {
+          "text": "我",
+          "romanization": "Guá"
+        },
+        {
+          "text": "若",
+          "romanization": "nā"
+        },
+        {
+          "text": "歡喜",
+          "romanization": "huann-hí"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "綴",
+          "romanization": "tuè"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "笑",
+          "romanization": "tshiò"
+        },
+        {
+          "text": "；",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "若",
+          "romanization": "nā"
+        },
+        {
+          "text": "悲傷",
+          "romanization": "pi-siong"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "綴",
+          "romanization": "tuè"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "吼",
+          "romanization": "háu"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        }
+      ]
+    },
+    "s22": {
+      "text": "人講：「惜花連盆，疼囝連孫。」",
+      "tokens": [
+        {
+          "text": "人",
+          "romanization": "Lâng"
+        },
+        {
+          "text": "講",
+          "romanization": "kóng"
+        },
+        {
+          "text": "：",
+          "romanization": null
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "惜",
+          "romanization": "sioh"
+        },
+        {
+          "text": "花",
+          "romanization": "hue"
+        },
+        {
+          "text": "連",
+          "romanization": "liân"
+        },
+        {
+          "text": "盆",
+          "romanization": "phûn"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "疼",
+          "romanization": "thiànn"
+        },
+        {
+          "text": "囝",
+          "romanization": "kiánn"
+        },
+        {
+          "text": "連",
+          "romanization": "liân"
+        },
+        {
+          "text": "孫",
+          "romanization": "sun"
+        },
+        {
+          "text": "。",
+          "romanization": null
+        },
+        {
+          "text": "」",
+          "romanization": null
+        }
+      ]
+    },
+    "s23": {
+      "text": "在我看來，阿媽毋是「疼囝連孫」，因為佇伊的心目中，我早就敢若伊的查某囝仝款囉！",
+      "tokens": [
+        {
+          "text": "在",
+          "romanization": "Tsāi"
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "看來",
+          "romanization": "khuànn--lâi"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "阿媽",
+          "romanization": "a-má"
+        },
+        {
+          "text": "毋",
+          "romanization": "m̄"
+        },
+        {
+          "text": "是",
+          "romanization": "sī"
+        },
+        {
+          "text": "「",
+          "romanization": null
+        },
+        {
+          "text": "疼",
+          "romanization": "thiànn"
+        },
+        {
+          "text": "囝",
+          "romanization": "kiánn"
+        },
+        {
+          "text": "連",
+          "romanization": "liân"
+        },
+        {
+          "text": "孫",
+          "romanization": "sun"
+        },
+        {
+          "text": "」",
+          "romanization": null
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "因為",
+          "romanization": "in-uī"
+        },
+        {
+          "text": "佇",
+          "romanization": "tī"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "心目中",
+          "romanization": "sim-bo̍k-tiong"
+        },
+        {
+          "text": "，",
+          "romanization": null
+        },
+        {
+          "text": "我",
+          "romanization": "guá"
+        },
+        {
+          "text": "早",
+          "romanization": "tsá"
+        },
+        {
+          "text": "就",
+          "romanization": "tō"
+        },
+        {
+          "text": "敢若",
+          "romanization": "kánn-ná"
+        },
+        {
+          "text": "伊",
+          "romanization": "i"
+        },
+        {
+          "text": "的",
+          "romanization": "ê"
+        },
+        {
+          "text": "查某囝",
+          "romanization": "tsa-bóo-kiánn"
+        },
+        {
+          "text": "仝款",
+          "romanization": "kāng-khuán"
+        },
+        {
+          "text": "囉",
+          "romanization": "--looh"
+        },
+        {
+          "text": "！",
+          "romanization": null
+        }
+      ]
+    }
+  },
+  "missing": [],
+  "differences": [
+    {
+      "source": "",
+      "manuscript": " "
+    },
+    {
+      "source": "",
+      "manuscript": " "
+    },
+    {
+      "source": "",
+      "manuscript": " "
+    },
+    {
+      "source": "",
+      "manuscript": " "
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.tools/
+node_modules/
+.local/
+*.log
+sites/slow-reading/dist/
+sites/slow-reading/*.tar.gz
+sites/*.tar.gz
